@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function ProfileCard ({ name, occupation, description }) {
+function ProfileCard ({ name = "Winter", occupation = "Singer", description = "Lorem ipsum dolor sit amet consectetur adipisicing elit." }) {
   return (
     <div className="profilecard-container">
       <h3>{name}</h3>
@@ -11,9 +11,9 @@ function ProfileCard ({ name, occupation, description }) {
 };
 
 ProfileCard.propTypes = {
-  name: PropTypes.string.isRequired,
-  occupation: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  occupation: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default ProfileCard;
