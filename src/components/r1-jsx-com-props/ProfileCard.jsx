@@ -1,4 +1,7 @@
+import '../../styles/r1-jsx-com-props/ProfileCard.css';
+
 import PropTypes from "prop-types";
+
 
 function ProfileCard ({ name = "Winter", occupation = "Singer", description = "Lorem ipsum dolor sit amet consectetur adipisicing elit." }) {
   return (

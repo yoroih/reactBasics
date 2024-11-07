@@ -1,0 +1,12 @@
+.profilelist-container {
+  background: #0f1f2a;
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 0px 10px 20px 10px;
+}
