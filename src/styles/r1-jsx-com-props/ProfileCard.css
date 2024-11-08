@@ -3,11 +3,25 @@
   border-radius: 5px;
   margin: 15px;
   display: flex;
-  
+  flex-direction: row;
+  height: 110px;
+}
+
+.image-container  {
+  width: 25%;
 }
 
 .card-image {
-  width: 150px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.info-container {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  padding: 15px
 }
 
 .card-name {
@@ -18,8 +32,10 @@
 
 .card-occupation {
   color: darkgrey;
+  text-indent: 5px;
 }
 
 .card-description {
   text-align: end;
+  margin-top: auto;
 }

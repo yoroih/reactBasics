@@ -8,11 +8,10 @@ function ProfileCard ({ image, name = "Winter", occupation = "Singer", descripti
         <img className="card-image" src={`${image}`} alt={`${name} profile photo`}/>
       </div>
       <div className="info-container">
-        
+        <h3 className="card-name">{name}</h3>
+        <p className="card-occupation">{occupation}</p>
+        <p className="card-description">&quot;{description}&quot;</p>
       </div>
-      <h3 className="card-name">{name}</h3>
-      <p className="card-occupation">{occupation}</p>
-      <p className="card-description">&quot;{description}&quot;</p>
     </div>
   );
 };
