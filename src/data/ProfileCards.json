@@ -1,52 +1,62 @@
 [
-  { 
-    "name": "Alice", 
-    "occupation": "Software Engineer", 
-    "description": "Loves to code and solve problems" 
+  {
+    "image": "../public/profiles/alice.jpg",
+    "name": "Alice",
+    "occupation": "Software Engineer",
+    "description": "Loves to code and solve problems"
   },
-  { 
-    "name": "Bob", 
-    "occupation": "Designer", 
-    "description": "Passionate about UX and UI" 
+  {
+    "image":"../public/profiles/bob.jpg",
+    "name": "Bob",
+    "occupation": "Designer",
+    "description": "Passionate about UX and UI"
   },
-  { 
-    "name": "Charlie", 
-    "occupation": "Product Manager", 
-    "description": "Keeps everything running smoothly" 
+  {
+    "image": "../public/profiles/charlie.jpg",
+    "name": "Charlie",
+    "occupation": "Product Manager",
+    "description": "Keeps everything running smoothly"
   },
-  { 
-    "name": "Diana", 
-    "occupation": "Data Scientist", 
-    "description": "Enjoys finding patterns in data and making insights" 
+  {
+    "image": "../public/profiles/diana.jpg",
+    "name": "Diana",
+    "occupation": "Data Scientist",
+    "description": "Enjoys finding patterns in data and making insights"
   },
-  { 
-    "name": "Eve", 
-    "occupation": "Marketing Specialist", 
-    "description": "Expert in digital marketing and brand strategy" 
+  {
+    "image": "../public/profiles/eve.jpg",
+    "name": "Eve",
+    "occupation": "Marketing Specialist",
+    "description": "Expert in digital marketing and brand strategy"
   },
-  { 
-    "name": "Frank", 
-    "occupation": "DevOps Engineer", 
-    "description": "Ensures smooth deployment and operation of systems" 
+  {
+    "image": "../public/profiles/frank.jpg",
+    "name": "Frank",
+    "occupation": "DevOps Engineer",
+    "description": "Ensures smooth deployment and operation of systems"
   },
-  { 
-    "name": "Grace", 
-    "occupation": "Content Writer", 
-    "description": "Skilled at creating engaging content and storytelling" 
+  {
+    "image": "../public/profiles/grace.jpg",
+    "name": "Grace",
+    "occupation": "Content Writer",
+    "description": "Skilled at creating engaging content and storytelling"
   },
-  { 
-    "name": "Hank", 
-    "occupation": "Quality Assurance Tester", 
-    "description": "Focused on finding and fixing software bugs" 
+  {
+    "image": "../public/profiles/hank.jpg",
+    "name": "Hank",
+    "occupation": "Quality Assurance Tester",
+    "description": "Focused on finding and fixing software bugs"
   },
-  { 
-    "name": "Ivy", 
-    "occupation": "Sales Manager", 
-    "description": "Driven to meet targets and grow client relationships" 
+  {
+    "image": "../public/profiles/ivy.jpg",
+    "name": "Ivy",
+    "occupation": "Sales Manager",
+    "description": "Driven to meet targets and grow client relationships"
   },
-  { 
-    "name": "Jack", 
-    "occupation": "Cybersecurity Specialist", 
-    "description": "Protects systems and data from unauthorized access" 
+  {
+    "image": "../public/profiles/jack.jpg",
+    "name": "Jack",
+    "occupation": "Cybersecurity Specialist",
+    "description": "Protects systems and data from unauthorized access"
   }
 ]

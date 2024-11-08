@@ -10,12 +10,12 @@ function ProfileList() {
       {infoPeople.map((elem, index) => (
         <ProfileCard 
           key={index}
-          name = {elem.name}
-          occupation = {elem.occupation}
-          description = {elem.description}
+          image={elem.image}
+          name={elem.name}
+          occupation={elem.occupation}
+          description={elem.description}
         />
       ))}
-      <p>Fin de lista</p>
     </div>
   );
 };
